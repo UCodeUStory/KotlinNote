@@ -25,8 +25,8 @@ object SpUtil {
 
     fun setNight(context: Context, isNight: Boolean) {
         prefs.edit().putBoolean("isNight", isNight).apply()
-        if (context is BaseActivity<*>)
-            (context as BaseActivity<*>).reload()
+        if (context is BaseActivity<*,*,*>)
+            context.reload()
     }
 
     fun getData(key: String): String {

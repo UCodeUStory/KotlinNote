@@ -17,7 +17,7 @@ import com.wangpos.kotlin_s_mvp.utils.SpUtil
 
 
 abstract class BaseAppCompatActivity : AppCompatActivity(), View.OnClickListener {
-    abstract var mContext: Context
+    var mContext: Context? = null;
 
     val menuId: Int
         get() = -1
