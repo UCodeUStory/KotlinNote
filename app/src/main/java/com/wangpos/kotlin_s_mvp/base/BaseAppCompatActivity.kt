@@ -17,17 +17,18 @@ import com.wangpos.kotlin_s_mvp.utils.SpUtil
 
 
 abstract class BaseAppCompatActivity : AppCompatActivity(), View.OnClickListener {
-    var mContext: Context? = null;
+    var mContext: Context? = null
 
     val menuId: Int
         get() = -1
 
-    abstract val layoutId: Int
+    var layoutId: Int = 0
 
 
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        getLayout();
         val rootView = layoutInflater.inflate(this.layoutId, null, false)
         this.setContentView(layoutId, rootView)
 //        InjectView.bind(this)
@@ -37,7 +38,7 @@ abstract class BaseAppCompatActivity : AppCompatActivity(), View.OnClickListener
 
     }
 
-    protected fun initPresenter() {}
+    abstract fun initPresenter();
 
 
     /**
@@ -81,6 +82,8 @@ abstract class BaseAppCompatActivity : AppCompatActivity(), View.OnClickListener
         MPermissionUtils.onRequestPermissionsResult(requestCode, permissions, grantResults)
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
     }
+
+    abstract fun getLayout():Int
 
     abstract fun initView()
 

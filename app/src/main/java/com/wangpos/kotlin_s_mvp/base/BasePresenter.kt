@@ -4,7 +4,7 @@ package com.wangpos.kotlin_s_mvp.base
  * Created by qiyue on 2018/3/12.
  */
 
-abstract class BasePresenter<V, M> {
+abstract class BasePresenter< V,  M> {
     protected var mView: V? = null
 
     protected var mModel: M? = null
