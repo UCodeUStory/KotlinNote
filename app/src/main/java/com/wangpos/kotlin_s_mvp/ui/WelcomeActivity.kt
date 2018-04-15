@@ -14,6 +14,8 @@ class WelcomeActivity : BaseActivity<WelcomePresenter>(),WelcomeContract.View{
 
     override fun initView() {
 
+        mPresenter!!.loadHeader();
+
     }
 
     override fun getLayout(): Int {

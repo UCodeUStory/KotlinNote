@@ -33,7 +33,7 @@ interface WelcomeContract {
         }
     }
 
-    abstract class Presenter : BasePresenter< View,  Model>() {
+    abstract class Presenter(mModel: Model) : BasePresenter<View, Model>(mModel) {
 
         internal abstract fun loadHeader()
 
