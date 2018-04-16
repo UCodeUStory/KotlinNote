@@ -28,7 +28,7 @@ abstract class BaseAppCompatActivity : AppCompatActivity(), View.OnClickListener
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        getLayout();
+        layoutId = getLayout();
         val rootView = layoutInflater.inflate(this.layoutId, null, false)
         this.setContentView(layoutId, rootView)
 //        InjectView.bind(this)

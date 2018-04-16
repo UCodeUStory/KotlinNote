@@ -7,11 +7,10 @@
     tools:context="com.wangpos.kotlin_s_mvp.ui.WelcomeActivity">
 
 
-    <TextView
-        android:id="@+id/tvHeader"
+    <ImageView
+        android:id="@+id/ivHeader"
         android:layout_width="match_parent"
-        android:text="aaaa"
-        android:textColor=""
-        android:layout_height="100dp" />
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent" />
 
 </LinearLayout>

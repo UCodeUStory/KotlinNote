@@ -1,20 +1,28 @@
 package com.wangpos.kotlin_s_mvp.ui
 
 import android.util.Log
+import android.widget.ImageView
 import com.wangpos.kotlin_s_mvp.R
 import com.wangpos.kotlin_s_mvp.base.BaseActivity
 import com.wangpos.kotlin_s_mvp.base.BasePresenter
+import kotlinx.android.synthetic.main.activity_main.view.*
 
 
 class WelcomeActivity : BaseActivity<WelcomePresenter>(),WelcomeContract.View{
+
+    val TAG:String = "WelcomeActivity";
+
+    lateinit var ivHeader: ImageView;
+
     override fun initPresenter() {
-        mPresenter = WelcomePresenter();
-        mPresenter!!.onAttachedView(this);
+        mPresenter = WelcomePresenter(WelcomeModel())
+        mPresenter!!.onAttachedView(this)
     }
 
     override fun initView() {
-
+        ivHeader = findViewById(R.id.ivHeader)
         mPresenter!!.loadHeader();
+
 
     }
 
@@ -23,7 +31,8 @@ class WelcomeActivity : BaseActivity<WelcomePresenter>(),WelcomeContract.View{
     }
 
     override fun onLoadSuccess(id: Int) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        Log.i(TAG,"id="+id)
+        ivHeader.setImageResource(id);
     }
 
     override fun onLoadMenuSuccess(id: Int) {

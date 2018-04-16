@@ -6,6 +6,11 @@ package com.wangpos.kotlin_s_mvp.ui
 class WelcomePresenter(mModel: WelcomeContract.Model) : WelcomeContract.Presenter(mModel) {
 
     override fun loadHeader() {
+        mModel.findHeader(object:WelcomeContract.Model.OnLoadHeaderListener{
+            override fun onLoadSuccess(id: Int) {
+                mView!!.onLoadSuccess(id);
+            }
+        })
     }
 
     override fun loadMenu() {
