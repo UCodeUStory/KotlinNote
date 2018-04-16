@@ -13,8 +13,31 @@ Kotlin-MVP
    - 2. 基础
    - - 1. 函数
    - - 2. 语句和表达式
+   - - - 1. 在kotlin if 是一个表达式，并不是声明，两者区别，在于，表达式有值他可以作为另一个表达式的一般不分，
+         声明没有值，在Java中所有控制结构都是声明，在Kotlin中除了for do while都是表达式
    - - 3. 表达式体的函数更多代替代码块体函数
+       
+              //一般写法
+              fun max(a:Int,b:Int):Int{
+                  return if(a>b) a else b;
+              }
+              // 将代码块主体替换表达式主体
+              fun max(a:Int,b:Int):Int = if(a>b) a else b;
+          
+              // 省略返回值
+              fun max(a:Int,b:Int) = if(a>b) a else b;
    - - 4. 变量与常量
+   - - - 1. 常量
    
+   
+                       val name1 = "John"
+                       //可以省略类型
+                       val name2:String = "Bob"
+       
+   - - - 2. 变量
+   
+
+                       var age1:Int = 23
+                       var age2 = 12
 
 ### Kotlin-Android
