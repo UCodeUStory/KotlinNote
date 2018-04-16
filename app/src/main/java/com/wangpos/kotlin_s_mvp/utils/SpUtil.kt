@@ -36,4 +36,6 @@ object SpUtil {
     fun setData(key: String, data: String) {
         prefs.edit().putString(key, data).apply()
     }
+
+
 }

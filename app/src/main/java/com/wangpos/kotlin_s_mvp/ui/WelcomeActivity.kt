@@ -23,7 +23,6 @@ class WelcomeActivity : BaseActivity<WelcomePresenter>(),WelcomeContract.View{
         ivHeader = findViewById(R.id.ivHeader)
         mPresenter!!.loadHeader();
 
-
     }
 
     override fun getLayout(): Int {
@@ -31,12 +30,10 @@ class WelcomeActivity : BaseActivity<WelcomePresenter>(),WelcomeContract.View{
     }
 
     override fun onLoadSuccess(id: Int) {
-        Log.i(TAG,"id="+id)
         ivHeader.setImageResource(id);
     }
 
     override fun onLoadMenuSuccess(id: Int) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
 

@@ -6,6 +6,7 @@ import com.wangpos.kotlin_s_mvp.R
  * Created by qiyue on 2018/4/11.
  */
 class WelcomeModel: WelcomeContract.Model() {
+
     override fun findHeader(onLoadHeaderListener: OnLoadHeaderListener) {
        onLoadHeaderListener.onLoadSuccess(R.drawable.yunzhi)
     }

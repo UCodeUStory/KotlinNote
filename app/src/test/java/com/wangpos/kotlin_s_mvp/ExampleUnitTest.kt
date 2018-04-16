@@ -14,4 +14,17 @@ class ExampleUnitTest {
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
+
+
+    fun main(args:Array<String>){
+        println("Hello,world!")
+    }
+    @Test
+    fun test_kotlin_function(){
+        assertEquals(max(1,2),2);
+    }
+
+    fun max(a:Int,b:Int):Int{
+        return if(a>b) a else b;
+    }
 }
