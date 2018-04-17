@@ -39,5 +39,18 @@ Kotlin-MVP
 
                        var age1:Int = 23
                        var age2 = 12
-
+   - - - 3. 类
+   
+            
+            //java
+            public Person{
+               private final name;
+               
+               public Person(String name){
+                   this.name = name;
+               }
+               
+            }
+            //kotlin
+            class Person(val name:String)
 ### Kotlin-Android
