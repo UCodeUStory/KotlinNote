@@ -53,7 +53,16 @@ Kotlin-MVP
             }
             //kotlin
             class Person(var name:String,val age:Int)
+            
             //var定义的是可读写属性，val定义的是只读属性，也就相当于没有get方法
+            
             //kotlin 中将get 和set方法进行隐藏了，赋值和访问我们只需要通过对象.属性就可以访问
+            
+            自定义获取器,判断是否是成年人，person.isAdult 
+            
+             val isAdult:Boolean
+                    get() {
+                        return age>18
+                    }
             
 ### Kotlin-Android
