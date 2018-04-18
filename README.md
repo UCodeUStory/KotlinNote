@@ -52,5 +52,8 @@ Kotlin-MVP
                
             }
             //kotlin
-            class Person(val name:String)
+            class Person(var name:String,val age:Int)
+            //var定义的是可读写属性，val定义的是只读属性，也就相当于没有get方法
+            //kotlin 中将get 和set方法进行隐藏了，赋值和访问我们只需要通过对象.属性就可以访问
+            
 ### Kotlin-Android
