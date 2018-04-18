@@ -64,5 +64,24 @@ Kotlin-MVP
                     get() {
                         return age>18
                     }
+                    
+            //定义枚举
             
+            enum class Color(val r:Int,val g:Int,val b:Int ) {
+            
+                RED(255,0,0),ORANGE(255,265,0),YELLOW(255,255,0);
+            
+                fun rgb()=(r*256+g)*256 + b;
+            }
+            
+            //when 代替Javaswitch ；else 里面相当于default,因为必须有个返回值
+            
+            fun test_when(age:Int)= when(age){
+                       1->"zhangsan"
+                       2->"lisi"
+                       3->"wangwu"
+                    else -> {
+                        "no find"
+                    }
+                }
 ### Kotlin-Android

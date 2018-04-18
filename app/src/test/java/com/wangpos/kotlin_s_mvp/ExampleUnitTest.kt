@@ -28,7 +28,22 @@ class ExampleUnitTest {
 //        person.age = 23; age 为只读属性
         System.out.println("person.name="+person.name)
         System.out.println("person.age="+person.age)
+        val result1 = test_when(1)
+        var result2 = test_when(10)
+        System.out.println("result1="+result1)
+        System.out.println("result2="+result2);
 
+
+
+    }
+
+    fun test_when(age:Int)= when(age){
+           1->"zhangsan"
+           2->"lisi"
+           3->"wangwu"
+        else -> {
+            "no find"
+        }
     }
 
 
