@@ -75,6 +75,7 @@ class ExampleUnitTest {
             System.out.println("index="+i);
         }
     }
+
     @Test
     fun test_iterator_map(){
         val binaryReps = TreeMap<Char, String>()
@@ -85,6 +86,24 @@ class ExampleUnitTest {
         for ((letter, binary) in binaryReps){//迭代 map，把 key 和 value 赋值给变量
             println("$letter = $binary")
         }
+    }
+
+    @Test
+    fun test_in(){
+        System.out.println(contains('A'))
+        System.out.println(contains('Z'))
+    }
+
+    fun contains(c:Char): Boolean {
+        if (c in 'A'..'F'){
+            return true
+        }
+        return false;
+    }
+    @Test
+    fun test_exception(){
+
+        throw IllegalArgumentException("非法数字")
     }
 
 

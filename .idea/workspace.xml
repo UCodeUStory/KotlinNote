@@ -13,18 +13,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ca04a4-cf0c-4ecb-9ca9-4dc3a83de4a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Student.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Teacher.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/ExampleUnitTest.kt" afterPath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/ExampleUnitTest.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Person.kt" afterPath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Person.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,8 +58,8 @@
       <file leaf-file-name="ExampleUnitTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/ExampleUnitTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+            <state relative-caret-position="437">
+              <caret line="105" column="44" lean-forward="false" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
               <folding>
                 <element signature="e#34#101#0" expanded="true" />
               </folding>
@@ -76,8 +71,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="281">
-                <caret line="109" column="21" lean-forward="true" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+              <first_editor relative-caret-position="454">
+                <caret line="122" column="12" lean-forward="false" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -1977,8 +1972,8 @@
         <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Color.kt" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Teacher.kt" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Student.kt" />
-        <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/ExampleUnitTest.kt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/ExampleUnitTest.kt" />
       </list>
     </option>
   </component>
@@ -2159,33 +2154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExampleUnitTest.test_iterator_map">
-    <configuration default="false" name="ExampleUnitTest.test_kotlin_function" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wangpos.kotlin_s_mvp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="app" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wangpos.kotlin_s_mvp" />
-      <option name="MAIN_CLASS_NAME" value="com.wangpos.kotlin_s_mvp.ExampleUnitTest" />
-      <option name="METHOD_NAME" value="test_kotlin_function" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ExampleUnitTest.test_in">
     <configuration default="false" name="ExampleUnitTest.test_for" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2290,6 +2259,32 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="false" name="ExampleUnitTest.test_in" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wangpos.kotlin_s_mvp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wangpos.kotlin_s_mvp" />
+      <option name="MAIN_CLASS_NAME" value="com.wangpos.kotlin_s_mvp.ExampleUnitTest" />
+      <option name="METHOD_NAME" value="test_in" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -2360,7 +2355,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524106599215" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524107507213" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2408,7 +2403,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524106599215" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524107507213" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2591,24 +2586,24 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524106599216" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524107507214" />
       </method>
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_kotlin_function" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for_step" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for_down" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_iterator_map" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for_step" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for_down" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_iterator_map" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_in" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_iterator_map" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for_down" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for_step" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_kotlin_function" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_in" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_iterator_map" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for_down" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for_step" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleUnitTest.test_for" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -2647,9 +2642,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleUnitTest_addition_isCorrect - 2018.04.16 at 12h 01m 40s.xml">
-      <configuration name="ExampleUnitTest.addition_isCorrect" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExampleUnitTest_test_for - 2018.04.19 at 10h 45m 48s.xml">
       <configuration name="ExampleUnitTest.test_for" configurationId="JUnit" />
     </history-entry>
@@ -2662,8 +2654,11 @@
     <history-entry file="ExampleUnitTest_test_for_step - 2018.04.19 at 10h 46m 40s.xml">
       <configuration name="ExampleUnitTest.test_for_step" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleUnitTest_test_kotlin_function - 2018.04.16 at 13h 25m 33s.xml">
-      <configuration name="ExampleUnitTest.test_kotlin_function" configurationId="JUnit" />
+    <history-entry file="ExampleUnitTest_test_in - 2018.04.19 at 11h 07m 11s.xml">
+      <configuration name="ExampleUnitTest.test_in" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExampleUnitTest_test_iterator_map - 2018.04.19 at 10h 56m 45s.xml">
+      <configuration name="ExampleUnitTest.test_iterator_map" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ExampleUnitTest_test_kotlin_function - 2018.04.18 at 10h 33m 27s.xml">
       <configuration name="ExampleUnitTest.test_kotlin_function" configurationId="JUnit" />
@@ -2689,7 +2684,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
@@ -3051,8 +3045,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="281">
-            <caret line="109" column="21" lean-forward="true" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+          <first_editor relative-caret-position="454">
+            <caret line="122" column="12" lean-forward="false" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />
@@ -3061,8 +3055,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/ExampleUnitTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        <state relative-caret-position="437">
+          <caret line="105" column="44" lean-forward="false" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
           <folding>
             <element signature="e#34#101#0" expanded="true" />
           </folding>
