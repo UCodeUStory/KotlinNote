@@ -84,4 +84,42 @@ Kotlin-MVP
                         "no find"
                     }
                 }
+            // 强化java中instance of ，kotlin用is
+   
+   - - - 4. 迭代
+            while 和java用法一样
+            
+                @Test
+                fun test_for_up(){
+                    for(i in 1..100){
+                        System.out.println("index="+i);
+                    }
+                }
+            
+                @Test
+                fun test_for_down(){
+                    for(i in 100 downTo 1 ){
+                        System.out.println("index="+i);
+                    }
+                }
+            
+                @Test
+                fun test_for_step(){
+                    for(i in 1..100 step 2){
+                        System.out.println("index="+i);
+                    }
+                }
+                @Test
+                fun test_iterator_map(){
+                    val binaryReps = TreeMap<Char, String>()
+                    for (c in 'A'..'F'){//创建字符区间
+                        val binary = Integer.toBinaryString(c.toInt())  //将 ASCII 码转化成二进制
+                        binaryReps[c] = binary //根据 key 为c 把 binary 存到 map 中
+                    }
+                    for ((letter, binary) in binaryReps){//迭代 map，把 key 和 value 赋值给变量
+                        println("$letter = $binary")
+                    }
+                }
+                
+                
 ### Kotlin-Android
