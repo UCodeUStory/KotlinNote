@@ -120,6 +120,34 @@ Kotlin-MVP
                         println("$letter = $binary")
                     }
                 }
-                
+   - - - 5. 异常
+               
+                   @Test
+                   fun test_try_catch(){
+                       try{
+                           var sum = 1/0;
+                       }catch (e:Exception){
+                           System.out.println("异常"+e.localizedMessage);
+                       }finally {
+                           System.out.println("finally");
+                       }
+                   }
+               
+                   @Test
+                   fun test_try_catch_expression(){
+                             var num = try {
+                  //            Integer.valueOf(11)
+                  //            22
+                  //            1/0
+                       }catch (e:Exception){
+               
+                           System.out.println("异常"+e.localizedMessage);
+                           0//表达式最后一行作为值
+                       }finally {
+                           System.out.println("finally");
+                       }
+               
+                       System.out.println("num="+num);
+                   }
                 
 ### Kotlin-Android
