@@ -173,7 +173,6 @@ class KotlinBasicTest {
 
         for (i in 0..mutableList.size-1){
             println("index="+i +"data="+mutableList[i])
-
         }
 
     }
@@ -195,4 +194,6 @@ class KotlinBasicTest {
         }
 
     }
+
+
 }
