@@ -149,5 +149,6 @@ Kotlin-MVP
                
                        System.out.println("num="+num);
                    }
+     - - - 6. 集合
                 
 ### Kotlin-Android
