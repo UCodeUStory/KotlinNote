@@ -179,7 +179,10 @@ class KotlinBasicTest {
 
     @Test
     fun test_map(){
-        var map = mapOf<String,Integer>(1 to "one")//只读map
-        map.g
+        var map = mapOf<String,Int>("one" to 1,"two" to 2,"three" to 3)//只读map
+        println(map["two"])
+        for ((key,value) in map){
+            println("key="+key+" value="+value)
+        }
     }
 }

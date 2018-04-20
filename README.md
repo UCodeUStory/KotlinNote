@@ -149,6 +149,58 @@ Kotlin-MVP
                
                        System.out.println("num="+num);
                    }
-     - - - 6. 集合
-                
+   - - - 6. 集合
+     
+     
+                @Test
+                fun test_set(){
+                     var setTest = hashSetOf<String>()
+                     setTest.add("set0")
+                     setTest.add("set1")
+                     setTest.add("set2")
+                     println(setTest)
+                     println("set-size="+setTest.size)
+                     println(setTest.contains("set0"));
+                     println(setTest.javaClass);
+                }
+            
+                @Test
+                fun test_list(){
+                    var listTest = listOf<String>("23","345","wer")//只读list
+                    println(listTest.size)
+                    println(listTest)
+                    println(listTest.javaClass)
+            
+                    var mutableList: MutableList<String> = arrayListOf();//读写list
+            
+                    mutableList.add("list0")
+                    mutableList.add("list1")
+                    mutableList.add("list2")
+            
+                    println(mutableList)
+                    println(mutableList.javaClass)
+            
+                    mutableList.forEach {
+                        println(it)
+                    }
+            
+                    for (s in mutableList) {
+                        println(s)
+                    }
+            
+                    for (i in 0..mutableList.size-1){
+                        println("index="+i +"data="+mutableList[i])
+            
+                    }
+            
+                }
+            
+                @Test
+                fun test_map(){
+                    var map = mapOf<String,Int>("one" to 1,"two" to 2,"three" to 3)//只读map
+                    println(map["two"])
+                    for ((key,value) in map){
+                        println("key="+key+" value="+value)
+                    }
+                }    
 ### Kotlin-Android
