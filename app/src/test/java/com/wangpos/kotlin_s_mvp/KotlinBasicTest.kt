@@ -3,8 +3,8 @@ package com.wangpos.kotlin_s_mvp
 import org.junit.Test
 
 import org.junit.Assert.*
+import util.getProductName
 import java.util.*
-import kotlin.collections.HashMap
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -109,7 +109,7 @@ class KotlinBasicTest {
     @Test
     fun test_try_catch(){
         try{
-            var sum = 1/0;
+//            var sum = 1/0;
         }catch (e:Exception){
             System.out.println("异常"+e.localizedMessage);
         }finally {
@@ -175,6 +175,16 @@ class KotlinBasicTest {
             println("index="+i +"data="+mutableList[i])
         }
 
+        var str :String =  joinToString(mutableList,",","(",")");
+        println(str)
+
+        var str2 :String =  joinToString(collection = mutableList,separator = ",",prefix = "(",postfix = ")");
+        println(str2)
+        var str3 :String = joinToString(collection = mutableList)
+        var str4 :String = joinToString(collection = mutableList,separator = "^")
+        println(str3)
+        println(str4)
+
     }
 
     @Test
@@ -193,6 +203,22 @@ class KotlinBasicTest {
             println("key=$key"+" value=$value")
         }
 
+    }
+
+    fun <T>joinToString(collection:Collection<T>,separator:String = ",",prefix:String = "(",postfix:String=")"):String{
+        var result = StringBuilder(prefix)
+        for((index,element) in collection.withIndex()){
+            if (index>0)result.append(separator)
+            result.append(element)
+        }
+        result.append(postfix)
+        return result.toString()
+    }
+
+    @Test
+    fun staticMethodTest(){
+
+        println("ProductName = "+getProductName())
     }
 
 
