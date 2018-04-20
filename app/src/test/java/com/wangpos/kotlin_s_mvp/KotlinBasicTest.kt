@@ -10,7 +10,7 @@ import java.util.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
+class KotlinBasicTest {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
@@ -104,6 +104,33 @@ class ExampleUnitTest {
     fun test_exception(){
 
         throw IllegalArgumentException("非法数字")
+    }
+    @Test
+    fun test_try_catch(){
+        try{
+            var sum = 1/0;
+        }catch (e:Exception){
+            System.out.println("异常"+e.localizedMessage);
+        }finally {
+            System.out.println("finally");
+        }
+    }
+
+    @Test
+    fun test_try_catch_expression(){
+        var num = try {
+//            Integer.valueOf(11)
+//            22
+//            1/0
+        }catch (e:Exception){
+
+            System.out.println("异常"+e.localizedMessage);
+            0//表达式最后一行作为值
+        }finally {
+            System.out.println("finally");
+        }
+
+        System.out.println("num="+num);
     }
 
 
