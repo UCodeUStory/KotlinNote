@@ -4,6 +4,7 @@ import org.junit.Test
 
 import org.junit.Assert.*
 import java.util.*
+import kotlin.collections.HashMap
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -184,5 +185,14 @@ class KotlinBasicTest {
         for ((key,value) in map){
             println("key="+key+" value="+value)
         }
+
+        var mutableMap:MutableMap<String,String> = hashMapOf()
+
+        mutableMap.put("one","11")
+        mutableMap.put("two","22")
+        for ((key,value) in mutableMap){
+            println("key=$key"+" value=$value")
+        }
+
     }
 }

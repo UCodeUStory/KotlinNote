@@ -19,7 +19,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt" afterPath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,24 +43,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KotlinBasicTest.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KotlinBasicTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="135" column="1" lean-forward="true" selection-start-line="135" selection-start-column="1" selection-end-line="186" selection-end-column="5" />
+            <state relative-caret-position="657">
+              <caret line="191" column="34" lean-forward="false" selection-start-line="191" selection-start-column="34" selection-end-line="191" selection-end-column="34" />
               <folding>
-                <element signature="e#34#101#0" expanded="true" />
+                <element signature="e#34#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="137" column="44" lean-forward="true" selection-start-line="137" selection-start-column="44" selection-end-line="137" selection-end-column="44" />
+              <first_editor relative-caret-position="429">
+                <caret line="197" column="21" lean-forward="false" selection-start-line="197" selection-start-column="21" selection-end-line="197" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -1914,8 +1913,8 @@
         <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Student.kt" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/ExampleUnitTest.kt" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasic.kt" />
-        <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt" />
       </list>
     </option>
   </component>
@@ -2301,7 +2300,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524203549768" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524208465137" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2349,7 +2348,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524203549768" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524208465137" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2532,7 +2531,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524203549769" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524208465137" />
       </method>
     </configuration>
     <list size="4">
@@ -2611,8 +2610,8 @@
     <history-entry file="KotlinBasicTest_test_map - 2018.04.20 at 13h 46m 28s.xml">
       <configuration name="KotlinBasicTest.test_map" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KotlinBasicTest_test_set - 2018.04.20 at 11h 49m 40s.xml">
-      <configuration name="KotlinBasicTest.test_set" configurationId="JUnit" />
+    <history-entry file="KotlinBasicTest_test_map - 2018.04.20 at 15h 12m 01s.xml">
+      <configuration name="KotlinBasicTest.test_map" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -2626,6 +2625,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
@@ -2635,9 +2635,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.490232" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.490232" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895397" sideWeight="0.490232" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24895397" sideWeight="0.490232" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2974,24 +2974,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="135" column="1" lean-forward="true" selection-start-line="135" selection-start-column="1" selection-end-line="186" selection-end-column="5" />
-          <folding>
-            <element signature="e#34#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="137" column="44" lean-forward="true" selection-start-line="137" selection-start-column="44" selection-end-line="137" selection-end-column="44" />
+          <first_editor relative-caret-position="429">
+            <caret line="197" column="21" lean-forward="false" selection-start-line="197" selection-start-column="21" selection-end-line="197" selection-end-column="21" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="191" column="34" lean-forward="false" selection-start-line="191" selection-start-column="34" selection-end-line="191" selection-end-column="34" />
+          <folding>
+            <element signature="e#34#135#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
