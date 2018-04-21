@@ -208,25 +208,23 @@ Kotlin-MVP
                     }
                 } 
    - - - 7. 指定参数名
-   
-   
-              joinToString(collection = mutableList,separator = ",",prefix = "(",postfix = ")");
+
+                 joinToString(collection = mutableList,separator = ",",prefix = "(",postfix = ")");
               
    - - - 8. 指定默认值实现重载
-                    
-                       
-            fun <T>joinToString(collection:Collection<T>,separator:String = ",",prefix:String = "(",postfix:String=")"):String{
-                var result = StringBuilder(prefix)
-                for((index,element) in collection.withIndex()){
-                    if (index>0)result.append(separator)
-                    result.append(element)
+                             
+                fun <T>joinToString(collection:Collection<T>,separator:String = ",",prefix:String = "(",postfix:String=")"):String{
+                    var result = StringBuilder(prefix)
+                    for((index,element) in collection.withIndex()){
+                        if (index>0)result.append(separator)
+                        result.append(element)
+                    }
+                    result.append(postfix)
+                    return result.toString()
                 }
-                result.append(postfix)
-                return result.toString()
-            }
-            
-              var str3 :String = joinToString(collection = mutableList)
-              var str4 :String = joinToString(collection = mutableList,separator = "^")
+                
+                  var str3 :String = joinToString(collection = mutableList)
+                  var str4 :String = joinToString(collection = mutableList,separator = "^")
    - - - 9. 静态方法
                
                         package util
