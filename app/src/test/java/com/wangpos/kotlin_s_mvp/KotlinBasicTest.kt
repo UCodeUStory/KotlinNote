@@ -4,6 +4,7 @@ import org.junit.Test
 
 import org.junit.Assert.*
 import util.getProductName
+import util.lastChar
 import java.util.*
 
 /**
@@ -220,6 +221,24 @@ class KotlinBasicTest {
 
         println("ProductName = "+getProductName())
     }
+
+    @Test
+    fun test_extend_method(){
+        println("Kotlin".lastChar())
+        var listTest = listOf<String>("23","345","wer")
+        var resultStr = listTest.joinToString("-")
+        println(resultStr)
+    }
+
+
+
+
+
+
+    //相当于在String方法里面添加了一个lastChar方法，lastChar方法可以调用所有公开的属性和方法
+//    fun String.lastChar():Char = get(length-1)
+
+
 
 
 }

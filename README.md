@@ -203,12 +203,12 @@ Kotlin-MVP
                         println("key="+key+" value="+value)
                     }
                 } 
-   - - - 7 指定参数名
+   - - - 7. 指定参数名
    
    
               joinToString(collection = mutableList,separator = ",",prefix = "(",postfix = ")");
               
-   - - - 8 指定默认值实现重载
+   - - - 8. 指定默认值实现重载
                     
                        
             fun <T>joinToString(collection:Collection<T>,separator:String = ",",prefix:String = "(",postfix:String=")"):String{
@@ -223,7 +223,7 @@ Kotlin-MVP
             
               var str3 :String = joinToString(collection = mutableList)
               var str4 :String = joinToString(collection = mutableList,separator = "^")
-   - - - 9 静态方法
+   - - - 9. 静态方法
    
    
             package util
@@ -232,5 +232,22 @@ Kotlin-MVP
             }
 
             import util.getProductName
-            
+   - - - 10. 只能扩展方法
+   
+   
+            /**
+             * 全部的集合扩展joinString方法
+             */
+            fun <T>Collection<T>.joinString(
+                    separator:String = ",",prefix:String = "(",postfix:String=")"
+            ):String{
+                var result = StringBuilder(prefix)
+                for((index,element) in this.withIndex()){
+                    if (index>0)result.append(separator)
+                    result.append(element)
+                }
+                result.append(postfix)
+                return result.toString()
+            }
+           
 ### Kotlin-Android
