@@ -87,6 +87,8 @@ Kotlin-MVP
             // 强化java中instance of ，kotlin用is
    
    - - - 4. 迭代
+   
+   
             while 和java用法一样
             
                 @Test
@@ -122,6 +124,8 @@ Kotlin-MVP
                 }
    - - - 5. 异常
                
+               
+              
                    @Test
                    fun test_try_catch(){
                        try{
@@ -232,6 +236,7 @@ Kotlin-MVP
             }
 
             import util.getProductName
+            
    - - - 10. 只能扩展方法
    
    
