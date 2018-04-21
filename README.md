@@ -40,51 +40,50 @@ Kotlin-MVP
                        var age1:Int = 23
                        var age2 = 12
    - - - 3. 类
-   
-            
-            //java
-            public Person{
-               private final name;
-               
-               public Person(String name){
-                   this.name = name;
-               }
-               
-            }
-            //kotlin
-            class Person(var name:String,val age:Int)
-            
-            //var定义的是可读写属性，val定义的是只读属性，也就相当于没有get方法
-            
-            //kotlin 中将get 和set方法进行隐藏了，赋值和访问我们只需要通过对象.属性就可以访问
-            
-            自定义获取器,判断是否是成年人，person.isAdult 
-            
-             val isAdult:Boolean
-                    get() {
-                        return age>18
-                    }
-                    
-            //定义枚举
-            
-            enum class Color(val r:Int,val g:Int,val b:Int ) {
-            
-                RED(255,0,0),ORANGE(255,265,0),YELLOW(255,255,0);
-            
-                fun rgb()=(r*256+g)*256 + b;
-            }
-            
-            //when 代替Javaswitch ；else 里面相当于default,因为必须有个返回值
-            
-            fun test_when(age:Int)= when(age){
-                       1->"zhangsan"
-                       2->"lisi"
-                       3->"wangwu"
-                    else -> {
-                        "no find"
-                    }
+       
+                //java
+                public Person{
+                   private final name;
+                   
+                   public Person(String name){
+                       this.name = name;
+                   }
+                   
                 }
-            // 强化java中instance of ，kotlin用is
+                //kotlin
+                class Person(var name:String,val age:Int)
+                
+                //var定义的是可读写属性，val定义的是只读属性，也就相当于没有get方法
+                
+                //kotlin 中将get 和set方法进行隐藏了，赋值和访问我们只需要通过对象.属性就可以访问
+                
+                自定义获取器,判断是否是成年人，person.isAdult 
+                
+                 val isAdult:Boolean
+                        get() {
+                            return age>18
+                        }
+                        
+                //定义枚举
+                
+                enum class Color(val r:Int,val g:Int,val b:Int ) {
+                
+                    RED(255,0,0),ORANGE(255,265,0),YELLOW(255,255,0);
+                
+                    fun rgb()=(r*256+g)*256 + b;
+                }
+                
+                //when 代替Javaswitch ；else 里面相当于default,因为必须有个返回值
+                
+                fun test_when(age:Int)= when(age){
+                           1->"zhangsan"
+                           2->"lisi"
+                           3->"wangwu"
+                        else -> {
+                            "no find"
+                        }
+                    }
+                // 强化java中instance of ，kotlin用is
    
    - - - 4. 迭代
    
@@ -232,7 +231,7 @@ Kotlin-MVP
                             return "KotlinSMVP"
                         }
 
-            import util.getProductName
+                        import util.getProductName
    - - - 10. 只能扩展方法
         
                     /**
