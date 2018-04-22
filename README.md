@@ -39,7 +39,7 @@ Kotlin-MVP
 
                        var age1:Int = 23
                        var age2 = 12
-   - - - 3. 类
+   - - 3. 类
        
                 //java
                 public Person{
@@ -85,7 +85,7 @@ Kotlin-MVP
                     }
                 // 强化java中instance of ，kotlin用is
    
-   - - - 4. 迭代
+   - - 4. 迭代
    
    
             while 和java用法一样
@@ -121,7 +121,7 @@ Kotlin-MVP
                         println("$letter = $binary")
                     }
                 }
-   - - - 5. 异常
+   - - 5. 异常
                
                
               
@@ -152,7 +152,7 @@ Kotlin-MVP
                
                        System.out.println("num="+num);
                    }
-   - - - 6. 集合
+   - - 6. 集合
      
      
                 @Test
@@ -206,11 +206,11 @@ Kotlin-MVP
                         println("key="+key+" value="+value)
                     }
                 } 
-   - - - 7. 指定参数名
+   - - 7. 指定参数名
 
                  joinToString(collection = mutableList,separator = ",",prefix = "(",postfix = ")");
               
-   - - - 8. 指定默认值实现重载
+   - - 8. 指定默认值实现重载
                              
                 fun <T>joinToString(collection:Collection<T>,separator:String = ",",prefix:String = "(",postfix:String=")"):String{
                     var result = StringBuilder(prefix)
@@ -224,7 +224,7 @@ Kotlin-MVP
                 
                   var str3 :String = joinToString(collection = mutableList)
                   var str4 :String = joinToString(collection = mutableList,separator = "^")
-   - - - 9. 静态方法
+   - - 9. 静态方法
                
                         package util
                         fun getProductName():String{
@@ -232,7 +232,11 @@ Kotlin-MVP
                         }
 
                         import util.getProductName
-   - - - 10. 只能扩展方法
+   - - 10. 扩展方法
+               
+                    扩展方法只是静态方法的高效语法，可以指定具体的类型接收器
+   
+                                                     
         
                     /**
                      * 全部的集合扩展joinString方法
@@ -248,5 +252,9 @@ Kotlin-MVP
                         result.append(postfix)
                         return result.toString()
                     }
+                    
+                    
+                    不可以覆盖的扩展方法，因为扩展函数并不是类一部分，而是属于类的外部，被调函数依赖于已声明的静态类型
+                    
            
 ### Kotlin-Android
