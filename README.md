@@ -256,5 +256,17 @@ Kotlin-MVP
                     
                     不可以覆盖的扩展方法，因为扩展函数并不是类一部分，而是属于类的外部，被调函数依赖于已声明的静态类型
                     
+   - - 11.创建接收任意数量的参数方法
            
+                    /**
+                        * 创建接收任意参数数量的方法
+                        */
+                       fun <T> createList(vararg params:T):List<T>{
+                           var list = ArrayList<T>()
+                           params.forEach {
+                               list.add(it)
+                           }
+                   
+                           return list
+                       }
 ### Kotlin-Android
