@@ -6,6 +6,7 @@ import org.junit.Assert.*
 import util.getProductName
 import util.lastChar
 import java.util.*
+import kotlin.collections.ArrayList
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -230,7 +231,25 @@ class KotlinBasicTest {
         println(resultStr)
     }
 
+    @Test
+    fun test_any_count_param(){
+        var list = createList("first","second")
+        list.forEach {
+            println(it)
+        }
+    }
 
+    /**
+     * 创建接收任意参数数量的方法
+     */
+    fun <T> createList(vararg params:T):List<T>{
+        var list = ArrayList<T>()
+        params.forEach {
+            list.add(it)
+        }
+
+        return list
+    }
 
 
 
