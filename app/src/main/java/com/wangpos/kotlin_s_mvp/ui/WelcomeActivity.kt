@@ -25,6 +25,8 @@ class WelcomeActivity : BaseActivity<WelcomePresenter>(),WelcomeContract.View{
 
     }
 
+
+
     override fun getLayout(): Int {
         return R.layout.activity_main;
     }

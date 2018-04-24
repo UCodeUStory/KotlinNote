@@ -251,8 +251,24 @@ class KotlinBasicTest {
         return list
     }
 
+    //中缀函数
+    /**
+     * infix函数需要几个条件：
+    - 只有一个参数
+    - 在方法前必须加infix关键字
+    - 必须是成员方法或者扩展方法
+     */
+    fun test_infix_fun(){
+//        val (number,name) = 1 to "one";
 
+        var sum = 1 add 2
 
+        println("sum="+sum)
+    }
+
+    infix fun Int.add(x: Int): Int {
+        return this + x
+    }
 
     //相当于在String方法里面添加了一个lastChar方法，lastChar方法可以调用所有公开的属性和方法
 //    fun String.lastChar():Char = get(length-1)
