@@ -258,16 +258,40 @@ class KotlinBasicTest {
     - 在方法前必须加infix关键字
     - 必须是成员方法或者扩展方法
      */
+    @Test
     fun test_infix_fun(){
 //        val (number,name) = 1 to "one";
 
         var sum = 1 add 2
 
         println("sum="+sum)
+
+        var account = Account()
+        account add 10.0
+        println(account.balance)
     }
 
     infix fun Int.add(x: Int): Int {
         return this + x
+    }
+
+    class Account {
+        var balance = 100.0
+
+        infix fun add(amount: Double) : Unit {
+            this.balance = balance + amount
+        }
+    }
+
+    @Test
+    fun test_split(){
+        var data:String = "12.23.A-B";
+        println(data.split("."))
+        println(data.split(".","-"))
+        /**
+         * [12, 23, A-B]
+        [12, 23, A, B]
+         */
     }
 
     //相当于在String方法里面添加了一个lastChar方法，lastChar方法可以调用所有公开的属性和方法
