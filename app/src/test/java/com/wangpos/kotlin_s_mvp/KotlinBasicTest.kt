@@ -294,10 +294,33 @@ class KotlinBasicTest {
          */
     }
 
+    @Test
+    fun test_string(){
+        var str:String = """a.//sd.s/./9811'/sdfdc.""";
+        println(str.trimMargin("."))
+    }
+
     //相当于在String方法里面添加了一个lastChar方法，lastChar方法可以调用所有公开的属性和方法
 //    fun String.lastChar():Char = get(length-1)
 
+    @Test
+    fun test_interace(){
+        //notice 创建一个接口有默认实现
+        var child:Child = Child()
+        println("age="+child.getAge())
+        println("name="+child.getName())
+//        age=25
+//        name=Parent
+    }
 
+    @Test
+    fun test_interface2(){
+        var child:Child2 = Child2();
+        println("age="+child.getAge())
+        println("name="+child.getName())
+//        age=23
+//        name=Child2
+    }
 
 
 }
