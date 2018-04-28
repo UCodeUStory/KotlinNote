@@ -285,5 +285,16 @@ Kotlin-MVP
         
    - - - 3. 可见性(public所有地方可见,internal模块内可见,protect 子类可见，private类内部可见)
    - - 14. 内部类和类嵌套
-   - - - 1. 
+   - - - 1. inner修饰的类持有外部类引用，同时创建也依赖外部类对象，其他类不持有外部类引用
+   
+    @Test
+    fun test_innerClass(){
+        var outTest:OutTest = OutTest();
+        println(outTest.getName());
+        var innerTest:OutTest.InnerTest =  outTest.InnerTest()
+        println(innerTest.getName()+"--"+innerTest.getOurReference().getName())
+        var test:OutTest.Test = OutTest.Test();
+        println(test.getName())
+
+    }
 ### Kotlin-Android

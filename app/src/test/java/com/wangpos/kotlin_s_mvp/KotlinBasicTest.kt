@@ -323,5 +323,16 @@ class KotlinBasicTest {
         println(child3.getName());
     }
 
+    @Test
+    fun test_innerClass(){
+        var outTest:OutTest = OutTest();
+        println(outTest.getName());
+        var innerTest:OutTest.InnerTest =  outTest.InnerTest()
+        println(innerTest.getName()+"--"+innerTest.getOurReference().getName())
+        var test:OutTest.Test = OutTest.Test();
+        println(test.getName())
+
+        //        var innerTest2:OutTest.InnerTest = OutTest.InnerTest(); 这是错误的
+    }
 
 }
