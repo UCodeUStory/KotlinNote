@@ -13,17 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ca04a4-cf0c-4ecb-9ca9-4dc3a83de4a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Child3.kt" afterPath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Child3.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt" afterPath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Parent2.kt" afterPath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/Parent2.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,7 +42,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="526">
-                <caret line="285" column="11" lean-forward="false" selection-start-line="285" selection-start-column="11" selection-end-line="285" selection-end-column="11" />
+                <caret line="285" column="27" lean-forward="false" selection-start-line="285" selection-start-column="27" selection-end-line="285" selection-end-column="27" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -2464,7 +2454,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524882357012" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524882561810" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2512,7 +2502,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524882357012" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524882561810" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2695,7 +2685,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524882357015" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524882561811" />
       </method>
     </configuration>
     <list size="2">
@@ -3143,7 +3133,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="526">
-            <caret line="285" column="11" lean-forward="false" selection-start-line="285" selection-start-column="11" selection-end-line="285" selection-end-column="11" />
+            <caret line="285" column="27" lean-forward="false" selection-start-line="285" selection-start-column="27" selection-end-line="285" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor />

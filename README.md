@@ -283,5 +283,6 @@ Kotlin-MVP
        }
    - - - 2.修饰方法(open可以被重写覆盖 final不可被重写覆盖 abstract必须被重写)    
         
-   - - - 3.
+   - - - 3.可见性(public所有地方可见,internal模块内可见,protect 子类可见，private类内部可见)
+          
 ### Kotlin-Android
