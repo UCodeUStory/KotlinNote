@@ -318,8 +318,9 @@ class KotlinBasicTest {
         var child:Child2 = Child2();
         println("age="+child.getAge())
         println("name="+child.getName())
-//        age=23
-//        name=Child2
+        var child3:Child3 = Child3();
+
+        println(child3.getName());
     }
 
 

@@ -269,4 +269,19 @@ Kotlin-MVP
                    
                            return list
                        }
+   - - 12.接口(有默认实现方法和无默认实现方法)
+   - - 13.类(默认作用域是final不可继承)        
+   - - - 1.允许创建子类需要open修饰
+   
+       
+       open class Person (var name:String,val age:Int){
+       
+           val isAdult:Boolean
+               get() {
+                   return age>23
+               }
+       }
+   - - - 2.修饰方法(open可以被重写覆盖 final不可被重写覆盖 abstract必须被重写)    
+        
+   - - - 3.
 ### Kotlin-Android
