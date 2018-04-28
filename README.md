@@ -256,7 +256,7 @@ Kotlin-MVP
                     
                     不可以覆盖的扩展方法，因为扩展函数并不是类一部分，而是属于类的外部，被调函数依赖于已声明的静态类型
                     
-   - - 11.创建接收任意数量的参数方法
+   - - 11. 创建接收任意数量的参数方法
            
                     /**
                         * 创建接收任意参数数量的方法
@@ -269,9 +269,9 @@ Kotlin-MVP
                    
                            return list
                        }
-   - - 12.接口(有默认实现方法和无默认实现方法)
-   - - 13.类(默认作用域是final不可继承)        
-   - - - 1.允许创建子类需要open修饰
+   - - 12. 接口(有默认实现方法和无默认实现方法)
+   - - 13. 类(默认作用域是final不可继承)        
+   - - - 1. 允许创建子类需要open修饰
    
        
        open class Person (var name:String,val age:Int){
@@ -281,8 +281,9 @@ Kotlin-MVP
                    return age>23
                }
        }
-   - - - 2.修饰方法(open可以被重写覆盖 final不可被重写覆盖 abstract必须被重写)    
+   - - - 2. 修饰方法(open可以被重写覆盖 final不可被重写覆盖 abstract必须被重写)    
         
-   - - - 3.可见性(public所有地方可见,internal模块内可见,protect 子类可见，private类内部可见)
-          
+   - - - 3. 可见性(public所有地方可见,internal模块内可见,protect 子类可见，private类内部可见)
+   - - 14. 内部类和类嵌套
+   - - - 1. 
 ### Kotlin-Android
