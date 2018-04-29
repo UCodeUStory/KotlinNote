@@ -335,4 +335,15 @@ class KotlinBasicTest {
         //        var innerTest2:OutTest.InnerTest = OutTest.InnerTest(); 这是错误的
     }
 
+    /**
+     * sealed 密封类 这一好处是，现在when表达式要求我们为所有可能的类型提供分支：
+     */
+    fun calculate (x:Int,operation: Operation)=when(operation){
+
+        is Operation.Add -> x + operation.value
+        is Operation.Substract -> x - operation.value
+        is Operation.Multiply ->  x * operation.value
+        is Operation.Divide -> x/operation.value
+    }
+
 }

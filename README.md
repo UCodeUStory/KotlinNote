@@ -297,4 +297,19 @@ Kotlin-MVP
         println(test.getName())
 
     }
+   - - 15. 密封类（超强的枚举）
+   
+    /**
+        * sealed 密封类 这一好处是，现在when表达式要求我们为所有可能的类型提供分支：
+        */
+       fun calculate (x:Int,operation: Operation)=when(operation){
+   
+           is Operation.Add -> x + operation.value
+           is Operation.Substract -> x - operation.value
+           is Operation.Multiply ->  x * operation.value
+           is Operation.Divide -> x/operation.value
+       }
+   - - 16. 主构造器和初始化器
+   
+   
 ### Kotlin-Android
