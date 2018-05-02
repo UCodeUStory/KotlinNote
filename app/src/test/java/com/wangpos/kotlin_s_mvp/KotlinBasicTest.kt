@@ -7,6 +7,7 @@ import util.getProductName
 import util.lastChar
 import java.util.*
 import kotlin.collections.ArrayList
+import kotlin.reflect.KProperty
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -345,5 +346,58 @@ class KotlinBasicTest {
         is Operation.Multiply ->  x * operation.value
         is Operation.Divide -> x/operation.value
     }
+
+    /**
+     * 委托，类似装饰器模式，相比Java实现一个装饰器模式，需要实现注入对象，并且把每个方法都写出来，
+     * 而这里的委托，比较好是有一种继承的效果，只有需要实现的方法写出来就可以，其他的自动委托
+     */
+    @Test
+    fun test_delegate(){
+        val b = BaseImpl(10)
+        Derived(b).print() // 输出 10
+    }
+    // 创建接口
+    interface Base {
+        fun print()
+    }
+
+    // 实现此接口的被委托的类
+    class BaseImpl(val x: Int) : Base {
+        override fun print() { print(x) }
+    }
+
+    // 通过关键字 by 建立委托类
+    class Derived(b: Base) : Base by b
+
+    /**
+     * 委托属性可以达到延迟加载的效果
+     */
+    @Test
+    fun test_delegate_var(){
+        val e = Example()
+        println(e.p)     // 访问该属性，调用 getValue() 函数
+        e.p = "Runoob"   // 调用 setValue() 函数
+        println(e.p)
+    }
+
+    // 定义包含属性委托的类
+    class Example {
+        var p: String by Delegate()
+    }
+
+    // 委托的类
+    class Delegate {
+        operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
+            println("getValue")
+            return "$thisRef, 这里委托了 ${property.name} 属性"
+        }
+
+        operator fun setValue(thisRef: Any?, property: KProperty<*>, value: String) {
+            println("setValue")
+            println("$thisRef 的 ${property.name} 属性赋值为 $value")
+        }
+    }
+
+
 
 }
