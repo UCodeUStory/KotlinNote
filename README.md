@@ -337,4 +337,51 @@ Kotlin-MVP
                class Derived(b: Base) : Base by b
    - - -  2. 属性委托
    
+   
+       /**
+        * 委托属性可以达到延迟加载的效果 
+        */
+       @Test
+       fun test_delegate_var(){
+           val e = Example()
+           println(e.p)     // 访问该属性，调用 getValue() 函数
+           e.p = "Runoob"   // 调用 setValue() 函数
+           println(e.p)
+       }
+   
+       // 定义包含属性委托的类
+       class Example {
+           var p: String by Delegate()
+       }
+   
+       // 委托的类
+       class Delegate {
+           operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
+               println("getValue")
+               return "$thisRef, 这里委托了 ${property.name} 属性"
+           }
+   
+           operator fun setValue(thisRef: Any?, property: KProperty<*>, value: String) {
+               println("setValue")
+               println("$thisRef 的 ${property.name} 属性赋值为 $value")
+           }
+       }
+       
+        //可以实现的单例模式
+        class Example1{
+            //lazy 方法只会被调用一次，而且只能作为常量才可以使用，因此适合做单例模式
+            val lazyValue: String by lazy {
+                println("computed!")     // 第一次调用输出，第二次调用不执行
+                "Hello"
+            }
+    
+        }
+       
+       //可以观察前后值得变化
+       class User {
+               var name: String by Delegates.observable("初始值") {
+                   prop, old, new ->
+                   println("旧值：$old -> 新值：$new")
+               }
+           }
 ### Kotlin-Android

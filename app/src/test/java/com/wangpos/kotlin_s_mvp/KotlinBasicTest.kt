@@ -7,6 +7,7 @@ import util.getProductName
 import util.lastChar
 import java.util.*
 import kotlin.collections.ArrayList
+import kotlin.properties.Delegates
 import kotlin.reflect.KProperty
 
 /**
@@ -398,6 +399,41 @@ class KotlinBasicTest {
         }
     }
 
+    @Test
+    fun test_lazy(){
+        var e = Example1();
+        println(e.lazyValue)
+        println(e.lazyValue)
+    }
+
+    class Example1{
+        //lazy 方法只会被调用一次，而且只能作为常量才可以使用，因此适合做单例模式
+        val lazyValue: String by lazy {
+            println("computed!")     // 第一次调用输出，第二次调用不执行
+            "Hello"
+        }
+
+    }
+
+    @Test
+    fun test_observale(){
+        var user = User();
+        println("name="+user.name)
+        println("name="+user.name)
+        user.name = "hello"
+        println("name="+user.name)
+        user.name = "haha"
+        println("name="+user.name)
+    }
+
+
+    class User {
+        var name: String by Delegates.observable("初始值") {
+            prop, old, new ->
+            println("旧值：$old -> 新值：$new")
+        }
+    }
 
 
 }
+
