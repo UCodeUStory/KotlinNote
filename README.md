@@ -310,6 +310,31 @@ Kotlin-MVP
            is Operation.Divide -> x/operation.value
        }
    - - 16. 主构造器和初始化器
+   - - 17. 委托
+   - - - 1. 类委托
    
+   
+            /**
+                * 委托，类似装饰器模式，相比Java实现一个装饰器模式，需要实现注入对象，并且把每个方法都写出来，
+                * 而这里的委托，比较好是有一种继承的效果，只有需要实现的方法写出来就可以，其他的自动委托
+                */
+               @Test
+               fun test_delegate(){
+                   val b = BaseImpl(10)
+                   Derived(b).print() // 输出 10
+               }
+               // 创建接口
+               interface Base {
+                   fun print()
+               }
+           
+               // 实现此接口的被委托的类
+               class BaseImpl(val x: Int) : Base {
+                   override fun print() { print(x) }
+               }
+           
+               // 通过关键字 by 建立委托类
+               class Derived(b: Base) : Base by b
+   - - -  2. 属性委托
    
 ### Kotlin-Android
