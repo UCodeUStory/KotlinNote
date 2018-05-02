@@ -3,6 +3,7 @@ package com.wangpos.kotlin_s_mvp
 import org.junit.Test
 
 import org.junit.Assert.*
+import util.Utils
 import util.getProductName
 import util.lastChar
 import java.util.*
@@ -399,6 +400,7 @@ class KotlinBasicTest {
         }
     }
 
+    //单例 lazy
     @Test
     fun test_lazy(){
         var e = Example1();
@@ -425,14 +427,47 @@ class KotlinBasicTest {
         user.name = "haha"
         println("name="+user.name)
     }
-
+    //静态类
+    @Test
+    fun test_static(){
+        println(Utils.isDebug)
+        println(Utils.test())
+    }
 
     class User {
         var name: String by Delegates.observable("初始值") {
             prop, old, new ->
             println("旧值：$old -> 新值：$new")
         }
+
     }
+    //匿名内部类
+    @Test
+    fun test_AnonymousInnerClass(){
+        var view = View()
+        view.setOnClickListener(object:OnClickListener{
+            override fun onclick() {
+                println("onclick!")
+            }
+        })
+
+    }
+
+    interface OnClickListener{
+        fun onclick()
+    }
+
+    class View {
+
+        fun setOnClickListener(onClickListener: OnClickListener){
+            onClickListener.onclick()
+        }
+
+
+    }
+
+
+
 
 
 }

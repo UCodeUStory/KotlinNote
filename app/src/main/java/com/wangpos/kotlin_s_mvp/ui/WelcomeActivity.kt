@@ -1,7 +1,9 @@
 package com.wangpos.kotlin_s_mvp.ui
 
 import android.util.Log
+import android.view.View
 import android.widget.ImageView
+import android.widget.Toast
 import com.wangpos.kotlin_s_mvp.R
 import com.wangpos.kotlin_s_mvp.base.BaseActivity
 import com.wangpos.kotlin_s_mvp.base.BasePresenter
@@ -23,6 +25,13 @@ class WelcomeActivity : BaseActivity<WelcomePresenter>(),WelcomeContract.View{
         ivHeader = findViewById(R.id.ivHeader)
         mPresenter!!.loadHeader();
 
+//        ivHeader.setOnClickListener(object:View.OnClickListener{
+//            override fun onClick(v: View?) {
+//                Toast.makeText(applicationContext,"clicked",Toast.LENGTH_SHORT).show()
+//            }
+//        })
+//        ivHeader.setOnClickListener { v: View? ->  Toast.makeText(applicationContext,"clicked",Toast.LENGTH_SHORT).show() }
+        ivHeader.setOnClickListener { v: View? ->  Toast.makeText(applicationContext,"clicked",Toast.LENGTH_SHORT).show() }
     }
 
 

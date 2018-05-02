@@ -384,4 +384,27 @@ Kotlin-MVP
                    println("旧值：$old -> 新值：$new")
                }
            }
+   - - 18. 静态属性和方法
+   
+           
+           class Utils {
+           
+               companion object {
+                   val isDebug:Boolean = false;
+           
+                   fun test():String{
+                       return "Hello"
+                   }
+               }
+           }
+   - - 19. 匿名内部类
+   
+   
+          view.setOnClickListener(object:OnClickListener{
+               override fun onclick() {
+                   println("onclick!")
+               }
+           })
+   - - 20. Lambda
+          
 ### Kotlin-Android
