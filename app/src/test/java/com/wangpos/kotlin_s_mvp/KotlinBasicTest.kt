@@ -486,7 +486,7 @@ class KotlinBasicTest {
     }
 
     @Test
-    fun test_collection_filter(){
+    fun test_list_filter(){
         var list = listOf<String>("aaa","bbb","ccc");
         list.filter { it.equals("aaa") }
         println(list)
@@ -495,7 +495,7 @@ class KotlinBasicTest {
     class Tester(val name:String)
 
     @Test
-    fun test_collection_map(){
+    fun test_list_map(){
        var list = listOf( Tester("AAA"),Tester("BBB"),Tester("CCC"));
        var targetList = list.map { it.name }// 相当于每一项变成it.name
        println(list)
@@ -508,6 +508,42 @@ class KotlinBasicTest {
         println(targetNums)
     }
 
+    @Test
+    fun test_map_filter(){
+        var maps = mapOf<Int,String>(1 to "one",2 to "two")
+
+        var targetMap = maps.filterKeys { it>1 }
+
+        println(targetMap)
+
+        var targetMap2 = maps.filterValues { it.equals("one") }
+
+        println(targetMap2)
+
+    }
+    @Test
+    fun test_map_map(){
+        var maps = mapOf<Int,String>(1 to "one", 2 to "two", 3 to "three")
+
+        var targetmap  = maps.mapKeys { it.key *2 }
+        println(targetmap)
+
+        var targetMap2 = maps.mapValues { it.value+"_qy" }
+
+        println(targetMap2)
+    }
+
+    @Test
+    fun test_collection_all_any_count_find_groupby(){
+         var list = listOf(1 ,2 ,3 ,4 ,5)
+
+         println(list.all { it> 2 })
+         println(list.any { it> 2 })
+         println(list.find { it > 2 })
+         println(list.count { it> 2 })
+    }
+
+    
 
 }
 
