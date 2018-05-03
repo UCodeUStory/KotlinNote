@@ -13,7 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ca04a4-cf0c-4ecb-9ca9-4dc3a83de4a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/util/Utils.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
@@ -25,9 +24,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/wangpos/kotlin_s_mvp/ui/WelcomeActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wangpos/kotlin_s_mvp/ui/WelcomeActivity.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt" afterPath="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KotlinBasicTest.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KotlinBasicTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="447" column="7" lean-forward="false" selection-start-line="447" selection-start-column="7" selection-end-line="451" selection-end-column="10" />
+            <state relative-caret-position="429">
+              <caret line="505" column="60" lean-forward="false" selection-start-line="505" selection-start-column="60" selection-end-line="505" selection-end-column="60" />
               <folding>
                 <element signature="e#34#270#0" expanded="true" />
               </folding>
@@ -78,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wangpos/kotlin_s_mvp/ui/WelcomeActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+              <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -117,12 +113,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="278">
-                <caret line="397" column="16" lean-forward="true" selection-start-line="397" selection-start-column="16" selection-end-line="397" selection-end-column="16" />
+              <first_editor relative-caret-position="465">
+                <caret line="408" column="10" lean-forward="false" selection-start-line="408" selection-start-column="10" selection-end-line="408" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -2023,15 +2019,16 @@
         <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/testconstructor/TestView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wangpos/kotlin_s_mvp/ui/WelcomeActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="2" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="981" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -2316,59 +2313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.app">
-    <configuration default="false" name="KotlinBasicTest.test_delegate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wangpos.kotlin_s_mvp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="app" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wangpos.kotlin_s_mvp" />
-      <option name="MAIN_CLASS_NAME" value="com.wangpos.kotlin_s_mvp.KotlinBasicTest" />
-      <option name="METHOD_NAME" value="test_delegate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="KotlinBasicTest.test_delegate_var" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wangpos.kotlin_s_mvp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="app" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wangpos.kotlin_s_mvp" />
-      <option name="MAIN_CLASS_NAME" value="com.wangpos.kotlin_s_mvp.KotlinBasicTest" />
-      <option name="METHOD_NAME" value="test_delegate_var" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.KotlinBasicTest.test_collection_map">
     <configuration default="false" name="KotlinBasicTest.test_lazy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2434,6 +2379,58 @@
       <option name="PACKAGE_NAME" value="com.wangpos.kotlin_s_mvp" />
       <option name="MAIN_CLASS_NAME" value="com.wangpos.kotlin_s_mvp.KotlinBasicTest" />
       <option name="METHOD_NAME" value="test_static" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="KotlinBasicTest.test_lambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wangpos.kotlin_s_mvp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wangpos.kotlin_s_mvp" />
+      <option name="MAIN_CLASS_NAME" value="com.wangpos.kotlin_s_mvp.KotlinBasicTest" />
+      <option name="METHOD_NAME" value="test_lambda" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="KotlinBasicTest.test_collection_map" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wangpos.kotlin_s_mvp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wangpos.kotlin_s_mvp" />
+      <option name="MAIN_CLASS_NAME" value="com.wangpos.kotlin_s_mvp.KotlinBasicTest" />
+      <option name="METHOD_NAME" value="test_collection_map" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -2517,7 +2514,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525253707533" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525311295811" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2565,7 +2562,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525253707533" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525311295811" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2748,24 +2745,24 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525253707534" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525311295811" />
       </method>
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_delegate" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_delegate_var" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_lazy" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_observale" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_static" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_lazy" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_observale" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_static" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_lambda" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_collection_map" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_static" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_observale" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_lazy" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_delegate_var" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_delegate" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_collection_map" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_lambda" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_static" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_observale" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.KotlinBasicTest.test_lazy" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -2804,35 +2801,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KotlinBasicTest_test_delegate - 2018.05.02 at 15h 57m 07s.xml">
-      <configuration name="KotlinBasicTest.test_delegate" configurationId="JUnit" />
+    <history-entry file="KotlinBasicTest_test_collection_map - 2018.05.03 at 09h 26m 17s.xml">
+      <configuration name="KotlinBasicTest.test_collection_map" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KotlinBasicTest_test_delegate_var - 2018.05.02 at 16h 06m 45s.xml">
-      <configuration name="KotlinBasicTest.test_delegate_var" configurationId="JUnit" />
+    <history-entry file="KotlinBasicTest_test_collection_map - 2018.05.03 at 09h 26m 42s.xml">
+      <configuration name="KotlinBasicTest.test_collection_map" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KotlinBasicTest_test_lazy - 2018.05.02 at 16h 32m 27s.xml">
-      <configuration name="KotlinBasicTest.test_lazy" configurationId="JUnit" />
+    <history-entry file="KotlinBasicTest_test_collection_map - 2018.05.03 at 09h 31m 21s.xml">
+      <configuration name="KotlinBasicTest.test_collection_map" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KotlinBasicTest_test_observale - 2018.05.02 at 16h 36m 39s.xml">
-      <configuration name="KotlinBasicTest.test_observale" configurationId="JUnit" />
+    <history-entry file="KotlinBasicTest_test_collection_map - 2018.05.03 at 09h 32m 45s.xml">
+      <configuration name="KotlinBasicTest.test_collection_map" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KotlinBasicTest_test_observale - 2018.05.02 at 16h 37m 14s.xml">
-      <configuration name="KotlinBasicTest.test_observale" configurationId="JUnit" />
+    <history-entry file="KotlinBasicTest_test_collection_map - 2018.05.03 at 09h 34m 16s.xml">
+      <configuration name="KotlinBasicTest.test_collection_map" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KotlinBasicTest_test_observale - 2018.05.02 at 16h 37m 49s.xml">
-      <configuration name="KotlinBasicTest.test_observale" configurationId="JUnit" />
+    <history-entry file="KotlinBasicTest_test_lambda - 2018.05.02 at 17h 37m 24s.xml">
+      <configuration name="KotlinBasicTest.test_lambda" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KotlinBasicTest_test_static - 2018.05.02 at 17h 05m 06s.xml">
-      <configuration name="KotlinBasicTest.test_static" configurationId="JUnit" />
+    <history-entry file="KotlinBasicTest_test_lambda - 2018.05.02 at 17h 38m 57s.xml">
+      <configuration name="KotlinBasicTest.test_lambda" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KotlinBasicTest_test_lambda - 2018.05.02 at 17h 44m 32s.xml">
+      <configuration name="KotlinBasicTest.test_lambda" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KotlinBasicTest_test_lambda - 2018.05.02 at 17h 45m 35s.xml">
+      <configuration name="KotlinBasicTest.test_lambda" configurationId="JUnit" />
     </history-entry>
     <history-entry file="KotlinBasicTest_test_static - 2018.05.02 at 17h 27m 52s.xml">
       <configuration name="KotlinBasicTest.test_static" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KotlinBasicTest_test_string - 2018.04.25 at 16h 17m 34s.xml">
-      <configuration name="KotlinBasicTest.test_string" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KotlinBasicTest_test_string - 2018.04.25 at 16h 18m 15s.xml">
-      <configuration name="KotlinBasicTest.test_string" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -2845,7 +2842,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="0" width="1680" height="981" extended-state="6" />
+    <frame x="2" y="23" width="1680" height="958" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2856,14 +2853,14 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32167044" sideWeight="0.490232" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3650058" sideWeight="0.490232" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24895397" sideWeight="0.490232" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3156,14 +3153,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wangpos/kotlin_s_mvp/utils/SpUtil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wangpos/kotlin_s_mvp/ui/WelcomeContract.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -3228,29 +3217,37 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wangpos/kotlin_s_mvp/ui/WelcomeActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="447" column="7" lean-forward="false" selection-start-line="447" selection-start-column="7" selection-end-line="451" selection-end-column="10" />
-          <folding>
-            <element signature="e#34#270#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="278">
-            <caret line="397" column="16" lean-forward="true" selection-start-line="397" selection-start-column="16" selection-end-line="397" selection-end-column="16" />
+          <first_editor relative-caret-position="465">
+            <caret line="408" column="10" lean-forward="false" selection-start-line="408" selection-start-column="10" selection-end-line="408" selection-end-column="10" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wangpos/kotlin_s_mvp/utils/SpUtil.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/wangpos/kotlin_s_mvp/KotlinBasicTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="505" column="60" lean-forward="false" selection-start-line="505" selection-start-column="60" selection-end-line="505" selection-end-column="60" />
+          <folding>
+            <element signature="e#34#270#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

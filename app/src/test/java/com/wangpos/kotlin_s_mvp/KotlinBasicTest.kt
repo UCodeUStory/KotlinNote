@@ -467,7 +467,46 @@ class KotlinBasicTest {
     }
 
 
+    @Test
+    fun test_lambda(){
+        var sum = {a:Int,b:Int ->
+            println("a="+a)
+            a+b}
+        println(sum(10,10))
 
+
+        var index = 1;
+        var list = listOf<String>("aaa","bbb");
+
+        list.forEach {
+            println(index)
+            println(it)
+        }
+
+    }
+
+    @Test
+    fun test_collection_filter(){
+        var list = listOf<String>("aaa","bbb","ccc");
+        list.filter { it.equals("aaa") }
+        println(list)
+    }
+
+    class Tester(val name:String)
+
+    @Test
+    fun test_collection_map(){
+       var list = listOf( Tester("AAA"),Tester("BBB"),Tester("CCC"));
+       var targetList = list.map { it.name }// 相当于每一项变成it.name
+       println(list)
+       println(targetList)
+
+        var numList = listOf(1,2,3,4,5);
+
+        var targetNums = numList.map { it*2 }// 相当于每一项变成it*2
+
+        println(targetNums)
+    }
 
 
 }
