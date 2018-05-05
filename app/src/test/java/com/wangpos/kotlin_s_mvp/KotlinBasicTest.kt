@@ -482,7 +482,6 @@ class KotlinBasicTest {
             println(index)
             println(it)
         }
-
     }
 
     @Test

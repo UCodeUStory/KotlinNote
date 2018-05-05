@@ -406,5 +406,22 @@ Kotlin-MVP
                }
            })
    - - 20. Lambda
+   
+   
+     @Test
+       fun test_lambda(){
+           var sum = {a:Int,b:Int ->
+               println("a="+a)
+               a+b}
+           println(sum(10,10))
+   
+           var index = 1;
+           var list = listOf<String>("aaa","bbb");
+   
+           list.forEach {
+               println(index)
+               println(it)
+           }
+       }
           
 ### Kotlin-Android
