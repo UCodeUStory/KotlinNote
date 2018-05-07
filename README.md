@@ -399,89 +399,93 @@ Kotlin-MVP
            }
    - - 19. 匿名内部类
    
-   
-          view.setOnClickListener(object:OnClickListener{
-               override fun onclick() {
-                   println("onclick!")
-               }
-           })
+       
+       
+              view.setOnClickListener(object:OnClickListener{
+                   override fun onclick() {
+                       println("onclick!")
+                   }
+               })
    - - 20. Lambda
    
-   
-     @Test
-       fun test_lambda(){
-           var sum = {a:Int,b:Int ->
-               println("a="+a)
-               a+b}
-           println(sum(10,10))
-   
-           var index = 1;
-           var list = listOf<String>("aaa","bbb");
-   
-           list.forEach {
-               println(index)
-               println(it)
-           }
-       }
+           
+           
+             @Test
+               fun test_lambda(){
+                   var sum = {a:Int,b:Int ->
+                       println("a="+a)
+                       a+b}
+                   println(sum(10,10))
+           
+                   var index = 1;
+                   var list = listOf<String>("aaa","bbb");
+           
+                   list.forEach {
+                       println(index)
+                       println(it)
+                   }
+               }
    - - 21. 集合通过 filter,map 筛选和修改
         
-    @Test
-    fun test_list_filter(){
-        var list = listOf<String>("aaa","bbb","ccc");
-        list.filter { it.equals("aaa") }
-        println(list)
-    }
-
-    class Tester(val name:String)
-
-    @Test
-    fun test_list_map(){
-       var list = listOf( Tester("AAA"),Tester("BBB"),Tester("CCC"));
-       var targetList = list.map { it.name }// 相当于每一项变成it.name
-       println(list)
-       println(targetList)
-
-        var numList = listOf(1,2,3,4,5);
-
-        var targetNums = numList.map { it*2 }// 相当于每一项变成it*2
-
-        println(targetNums)
-    }
-
-    @Test
-    fun test_map_filter(){
-        var maps = mapOf<Int,String>(1 to "one",2 to "two")
-
-        var targetMap = maps.filterKeys { it>1 }
-
-        println(targetMap)
-
-        var targetMap2 = maps.filterValues { it.equals("one") }
-
-        println(targetMap2)
-
-    }
-    @Test
-    fun test_map_map(){
-        var maps = mapOf<Int,String>(1 to "one", 2 to "two", 3 to "three")
-
-        var targetmap  = maps.mapKeys { it.key *2 }
-        println(targetmap)
-
-        var targetMap2 = maps.mapValues { it.value+"_qy" }
-
-        println(targetMap2)
-    }
+        
+        
+            @Test
+            fun test_list_filter(){
+                var list = listOf<String>("aaa","bbb","ccc");
+                list.filter { it.equals("aaa") }
+                println(list)
+            }
+        
+            class Tester(val name:String)
+        
+            @Test
+            fun test_list_map(){
+               var list = listOf( Tester("AAA"),Tester("BBB"),Tester("CCC"));
+               var targetList = list.map { it.name }// 相当于每一项变成it.name
+               println(list)
+               println(targetList)
+        
+                var numList = listOf(1,2,3,4,5);
+        
+                var targetNums = numList.map { it*2 }// 相当于每一项变成it*2
+        
+                println(targetNums)
+            }
+        
+            @Test
+            fun test_map_filter(){
+                var maps = mapOf<Int,String>(1 to "one",2 to "two")
+        
+                var targetMap = maps.filterKeys { it>1 }
+        
+                println(targetMap)
+        
+                var targetMap2 = maps.filterValues { it.equals("one") }
+        
+                println(targetMap2)
+        
+            }
+            @Test
+            fun test_map_map(){
+                var maps = mapOf<Int,String>(1 to "one", 2 to "two", 3 to "three")
+        
+                var targetmap  = maps.mapKeys { it.key *2 }
+                println(targetmap)
+        
+                var targetMap2 = maps.mapValues { it.value+"_qy" }
+        
+                println(targetMap2)
+            }
  - - 22. 集合 all,any,count, find
  
  
-    @Test
-    fun test_collection_all_any_count_find_groupby(){
-         var list = listOf(1 ,2 ,3 ,4 ,5)
-
-         println(list.all { it> 2 })
-         println(list.any { it> 2 })
-         println(list.find { it > 2 })
-         println(list.count { it> 2 })
-    }
+            @Test
+            fun test_collection_all_any_count_find_groupby(){
+                 var list = listOf(1 ,2 ,3 ,4 ,5)
+        
+                 println(list.all { it> 2 })
+                 println(list.any { it> 2 })
+                 println(list.find { it > 2 })
+                 println(list.count { it> 2 })
+            }
 ### Kotlin-Android
