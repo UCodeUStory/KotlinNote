@@ -488,4 +488,34 @@ Kotlin-MVP
                  println(list.find { it > 2 })
                  println(list.count { it> 2 })
             }
+            
+ - - 23. with使用
+  
+  
+         /**
+           * 使用with 省去变量使用
+           */
+          @Test
+          fun test_with(){
+              //        var result = StringBuilder()
+              //        result.append('[')
+              //        for (letter in 'A'..'Z'){
+              //            result.append(letter)
+              //        }
+              //        result.append(']')
+              //
+              //        println(result.toString())
+      
+              var result = with(StringBuilder()){
+                  append('[')
+                  for(letter in 'A'..'Z'){
+                      append(letter)
+                  }
+                  append(']')
+                   this.toString();
+              }
+      
+              println(result)
+          }
+      
 ### Kotlin-Android
