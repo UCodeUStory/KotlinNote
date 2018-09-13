@@ -1,5 +1,4 @@
-# KotlinSMVP
-Kotlin-MVP
+# Kotlin 学习笔记
 
 ### Kotlin
    - 1. Kotlin 特性
@@ -518,4 +517,3 @@ Kotlin-MVP
               println(result)
           }
       
-### Kotlin-Android
